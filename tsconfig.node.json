@@ -3,8 +3,12 @@
     "composite": true,
     "skipLibCheck": true,
     "module": "ESNext",
-    "moduleResolution": "bundler",
-    "allowSyntheticDefaultImports": true
+    "moduleResolution": "node",
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "target": "ESNext",
+    "resolveJsonModule": true,
+    "types": ["node"]
   },
   "include": ["gitprofile.config.ts", "vite.config.ts"]
 }
